@@ -1,4 +1,11 @@
+
 number = int(input('fizzbuzz를 출력할 범위를 입력하세요: '))
 
 for i in range(1, number + 1):
-    print(i)
+    if i%3==0 and i%5==0:
+        print('Fizzbuzz')
+    else:
+        print(i)
+
+    
+
